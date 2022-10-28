@@ -6,7 +6,9 @@ Using the `UIAppearance` system with `UILabel` fonts in iOS has always been kind
 
 You also have to manually set a font size and weight for each text style, and then make sure to use `UIFontMetrics` so that your fonts scale when using Dynamic Type. 
 
-With FontSystemKit, you create a single `FontSystem` object with your chosen font, and it can automatically create scalable fonts for each text style based on the size and weight of the corresponding system font. You can then set it globally on (nearly) all `UILabel` objects in your app using the appearance proxy. 
+With FontSystemKit, you can fix this, often in just one line of code. 
+
+You create a single `FontSystem` object with your chosen font, and it can automatically create scalable fonts for each text style based on the size and weight of the corresponding system font. You can then set it globally on (nearly) all `UILabel` objects in your app using the appearance proxy. 
 
 This package should be considered experimental. If you find something that can be improved, your pull requests are welcome!
 
